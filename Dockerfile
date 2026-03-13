@@ -1,5 +1,5 @@
 # Pull from Image
-FROM python:3.13-slim-bookworm
+FROM python:3.14-slim-bookworm
 
 # Set ENVIROMENT variables
 ENV PIP_DISABLE_PIP_VERSION_CHECK=1
