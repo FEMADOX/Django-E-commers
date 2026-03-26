@@ -34,6 +34,9 @@
     </div>
   </div>
   <div class="copyright">
-    <p>© 2025 Django E-commerce. All rights reserved.</p>
+    <p>© <span id="copyright-year"></span> Django E-commerce. All rights reserved.</p>
   </div>
 </div>
+<script>
+  document.getElementById("copyright-year").textContent = new Date().getFullYear();
+</script>
